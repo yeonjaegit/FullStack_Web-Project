@@ -1,8 +1,8 @@
 # ☕ FullStack Web-Project - 커피 전문 쇼핑몰
 
-> Spring Boot + React 기반 커피 전문 온라인 쇼핑몰 플랫폼
-> 
-> 제품 판매, 장바구니, 결제, 커뮤니티 기능을 포함한 Full Stack 웹 애플리케이션
+Spring Boot와 React로 만든 커피 전문 쇼핑몰입니다.  
+상품 조회, 장바구니, 결제, 커뮤니티 등 실제 쇼핑몰에 필요한 기능을 Full Stack으로 구현했습니다.  
+JWT/OAuth 인증부터 프론트엔드 상태 관리까지, 백엔드와 프론트엔드를 모두 경험한 프로젝트입니다.
 
 <br/>
 

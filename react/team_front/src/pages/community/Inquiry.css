@@ -1,0 +1,45 @@
+/* 게시판 전체 컨테이너 */
+.inquiry-container {
+  width: 80%; /* 화면 너비의 80% 사용 */
+  margin: 20px auto; /* 가운데 정렬 */
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* 게시판 제목 스타일 */
+.inquiry-container h1 {
+  font-size: 24px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #333;
+}
+
+/* 게시물 테이블 스타일 */
+.inquiry-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.inquiry-table th, .inquiry-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.inquiry-table th {
+  background-color: #f7f7f7;
+}
+
+/* 글작성 버튼 컨테이너 및 버튼 스타일 */
+.inquiry-write-container {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.inquiry-write-button {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+}

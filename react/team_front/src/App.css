@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "GmarketSansTTFBold";
+  src: url('/fonts/GmarketSansTTFBold.ttf');
+}
+
+@font-face {
+  font-family: "GmarketSansTTFMedium";
+  src: url('/fonts/GmarketSansTTFMedium.ttf');
+}
+
+@font-face {
+  font-family: "GmarketSansTTFLight";
+  src: url('/fonts/GmarketSansTTFLight.ttf');
+}
+
+body {
+  font-family: "GmarketSansTTFLight", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  border:0;
+  padding:0;
+}

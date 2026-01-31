@@ -1,0 +1,44 @@
+.VerticalCarousel .wrapper{
+  transition: all 1s;
+  position:fixed;
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+}
+.VerticalCarousel ._container{
+  display:flex;
+  flex-direction: column;
+  margin:0;
+  padding:0;
+  transition: all 1s;
+}
+.VerticalCarousel ._container ._card{
+  padding:0;
+  width:100vw;
+  height:100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.VerticalCarousel .arrow{
+  border: 1px solid grey;
+  display:block;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  position:absolute;
+  top:42.5%;
+  text-align: center;
+  line-height: 45px;
+  z-index: 3;
+  cursor:pointer;
+}
+.VerticalCarousel .btnLeft{
+  left:20px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.VerticalCarousel .btnRight{
+  right:20px;
+  background: rgba(255, 255, 255, 0.8);
+}

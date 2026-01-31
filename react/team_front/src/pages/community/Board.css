@@ -1,0 +1,45 @@
+/* 게시판 전체 컨테이너 */
+.board-container {
+  width: 60%; /* 화면 너비의 80% 사용 */
+  margin: 20px auto; /* 가운데 정렬 */
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* 게시판 제목 스타일 */
+.board-container h1 {
+  font-size: 24px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #333;
+}
+
+/* 게시물 테이블 스타일 */
+.board-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.board-table th, .board-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.board-table th {
+  background-color: #f7f7f7;
+}
+
+/* 글작성 버튼 컨테이너 및 버튼 스타일 */
+.board-write-container {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.board-write-button {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+}

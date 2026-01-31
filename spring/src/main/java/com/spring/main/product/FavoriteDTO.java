@@ -1,0 +1,16 @@
+package com.spring.main.product;
+
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class FavoriteDTO {
+
+	private int memberId;
+	private List<Integer> productId;
+
+	
+}

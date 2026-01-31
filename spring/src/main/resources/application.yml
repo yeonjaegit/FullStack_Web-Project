@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    # DB 주소 (localhost와 mydb 부분을 본인 환경에 맞게 수정)
+    url: jdbc:mysql://localhost:3306/mydb?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true

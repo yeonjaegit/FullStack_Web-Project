@@ -1,0 +1,45 @@
+.ProductCard{
+  margin-top:0px;
+  overflow:hidden;
+  border:1px solid white;
+  border-radius: 5px;
+  transition:all, 0.5s;
+  box-sizing: border-box;
+}
+
+.ProductCard ._cardText{
+  font-size:15px;
+  display: -webkit-box;
+	-webkit-line-clamp: 3; /* 줄 길이 */
+	-webkit-box-orient: vertical;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: normal;
+}
+
+.ProductCard ._cardTitle{
+  font-weight:600;
+}
+
+.ProductCard ._cardImgWrapper{
+  cursor:pointer;
+  border-radius:5px;
+  width:100%;
+  box-shadow:3px 3px 3px grey;
+  margin:0;
+  padding:0;
+  height:250px;
+  overflow:hidden;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+.ProductCard:hover{
+  border:1px solid rgb(90, 146, 243);
+  box-shadow: 
+  0px 3px 5px rgb(133, 221, 243),
+  3px 0px 5px rgb(133, 221, 243),
+  -3px 0px 5px rgb(133, 221, 243),
+  0px -3px 5px rgb(133, 221, 243);
+}
